@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+@using FestaMVC.Models
+@model FestaModel
+         
+
+<div class="areaOpcao">
+    <div class="cabecalhoAreaOpcao">
+
+        <div class="voltar">
+            <a href="@Url.Action("Index", "Festa")">
+                @Html.Raw(File.ReadAllText(Server.MapPath("~/Content/Images/back.svg")))</a>
+        </div>
+
+        <div class="textoFesta">Cadastro Festa</div>
+
+    </div>
+
+    <div class="linhaCabecalho"></div>
+
+    @using (Html.BeginForm()) {
+    <div class="areaFormulario">
+
+        <div id="campoId">
+            @Html.TextBoxFor(x=> x.id, new { type="number", @class="inputId", placeholder="ID"})
+            </div>
+        <div id="campoNome">
+            @Html.TextBoxFor(x=> x.Nome, new { type="text", @class="inputNome", placeholder="Nome"})
+            </div>
+        <div id="campoData">
+            @Html.TextBoxFor(x=> x.Data, new { type="date", @class="inputData", placeholder="Data"})
+            </div>
+        <div id="campoValorDoIngresso">
+            @Html.TextBoxFor(x=> x.ValorDoIngresso, new { type="number", @class="inputValor", placeholder="ValorDoIngresso"})
+            </div>
+
+        <div class="areabotao">
+            <button id="botaoCadastrar" class="botao" type="submit">Confirmar</button>
+        </div> 
+    </div>   
+    }     
+</div>
+
+
+@section carregarScript{
+}
+@section carregarHead {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/lg.festa.frontend.views.festa.edit.css")" />
+}

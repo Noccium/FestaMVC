@@ -1,0 +1,38 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="areaOpcao">
+    <div class="cabecalhoAreaOpcao">
+        Gestão de Festas
+        <div class="linhaCabecalho">
+        </div>
+    </div>
+    <div class="areaIcones">
+        <a href="@Url.Content("~/Festa/Index")">
+            <div class="cone">
+                <img src="@Url.Content("~/Content/Images/Festa.png")">
+                <div class="linha">
+                </div>
+                <div class="textoFuncao">
+                    Festa</div>
+            </div>
+        </a>
+        <div class="separar">
+        </div>
+        <a href="..\convidado\index.html">
+            <div class="convidado">
+                <img src="..\..\Content\images\convidado.png">
+                <div class="linha">
+                </div>
+                <div class="textoFuncao">
+                    Convidado
+                </div>
+            </div>
+    </div>
+    </a>
+</div>
+@section carregarScript{
+    <script src="@Url.Content("~/Scripts/lg.festa.frontend.home.index.js")"></script>
+}
+@section carregarHead {
+}

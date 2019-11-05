@@ -1,0 +1,89 @@
+
+div.areaOpcao{
+    width: 800px;
+    height: 500px;
+    background-color: #FFF;
+    border-radius: 25px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    
+}
+
+div.cabecalhoAreaOpcao{
+    font-size: 25px;
+    color: var(--bg-primary);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.areaIcones{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+div.cone{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+div.cone>img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+
+div.convidado{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+div.convidado>img{
+    position: relative;
+    width: 100px;
+    height: 150px;
+}
+
+div.textoFuncao{
+
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--bg-success);
+}
+
+
+
+div.linha{
+    border-bottom: 1px solid #e2e0e0;  
+    width: 150px;
+    margin-top: 10px;
+}
+
+div.linhaCabecalho{
+    position: relative;
+    border-bottom: 1px solid #e2e0e0;  
+    width: 650px;
+    bottom: -20px;
+}

@@ -1,0 +1,184 @@
+@import url('_reset.css');
+@import url('_variables.css');
+
+a{
+    text-decoration: none;
+}
+
+body{
+	margin: 0px;
+    background-color: var(--bg-home-light);
+    Font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+div.header{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: var(--bg-light);
+}
+
+div.logo>img{
+    margin-top: 5px;;
+    height: 50px;
+    background-color: var(--bg-light);
+}
+
+
+div.areaOpcao{
+    position: absolute;
+    width: 850px;
+    height: 500px;
+    background-color: #FFF;
+    border-radius: 25px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+div.cabecalhoAreaOpcao{
+    font-size: 25px;
+    color: var(--bg-primary);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+div.voltar{
+    position: relative;
+    margin-left: 3%;
+}
+
+div.adicionar{
+    position: relative;
+    margin-right: 3%;
+}
+
+div.footer{
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: var(--bg-light);
+    font-size: 10px;
+    color: gray;
+}
+
+div.areaTabela{
+    position: relative;
+    width: 100%;
+    height: 325px;
+    margin-top: 40px;
+    
+}
+
+div.containerTabela{
+    position: relative;
+    height: 100%;
+}
+
+div.containerTabela{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    border-spacing: 0px;
+    font-size: 13px;
+    Font-family: 'Open Sans', sans-serif;
+    
+  }
+
+  th{
+    color: var(--bg-success);
+  }
+  
+  table, td, th {
+    border: 1px solid lightgray;
+    height: 40px;
+    text-align: center; 
+    vertical-align: middle;
+
+  }
+
+
+  th.nome{
+      width: 400px;
+  }
+
+  th.data{
+      width: 100px;
+  }
+
+
+
+div.textoFuncao{
+
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--bg-success);
+}
+
+
+div.textoFooter{
+    margin-top: 15px;
+}
+
+
+div.linha{
+    border-bottom: 1px solid #e2e0e0;  
+    width: 150px;
+    margin-top: 10px;
+}
+
+div.linhaCabecalho{
+    position: relative;
+    border-bottom: 1px solid #e2e0e0;  
+    width: 800px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.TotalRes{
+    margin-top: 10px;
+    font-size: 13px;
+    Font-family: 'Open Sans', sans-serif;
+    color: var(--bg-success);
+
+}
+
+div.textoRes{
+    position: relative;
+    width: 150px;
+    left: 100%;
+    transform: translateX(-110%);
+
+    }
+
+div.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+tr.final{
+    height: 230px;
+}
+
+/*div{
+    border: 1px solid red;
+}
+

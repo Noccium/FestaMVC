@@ -1,0 +1,179 @@
+@import url('_reset.css');
+@import url('_variables.css');
+
+a{
+    text-decoration: none;
+}
+
+body{
+	margin: 0px;
+    background-color: var(--bg-home-light);
+    Font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+div.header{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: var(--bg-light);
+}
+
+div.logo>img{
+    margin-top: 5px;;
+    height: 50px;
+    background-color: var(--bg-light);
+}
+
+
+div.areaOpcao{
+    position: absolute;
+    width: 850px;
+    height: 500px;
+    background-color: #FFF;
+    border-radius: 25px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+div.cabecalhoAreaOpcao{
+    font-size: 25px;
+    color: var(--bg-primary);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+div.textoFesta{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.voltar{
+    position: relative;
+    margin-left: 3%;
+}
+
+
+div.footer{
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: var(--bg-light);
+    font-size: 10px;
+    color: gray;
+}
+
+div.areaFormulario{
+    position: absolute;
+    width: 800px;
+    height: 325px;
+    margin-top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+input::placeholder { 
+    font-size: 13px;
+    Font-family: 'Open Sans', sans-serif;
+    color: var(--bg-success);
+    font-weight: bold;
+  }
+
+input.inputNome{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    
+}
+
+input.inputData{
+    margin-top: 20px;
+    width: 25%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    
+}
+
+input.inputValor{
+    margin-top: 20px;
+    width: 25%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    
+}
+
+
+div.textoFooter{
+    margin-top: 15px;
+}
+
+
+div.linhaCabecalho{
+    position: relative;
+    border-bottom: 1px solid #e2e0e0;  
+    width: 800px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+div.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+div.botao{
+    background-color: #00a0d9;
+    width: 800px;
+    height: 25px;
+    border-radius: 25px;
+    padding-top: 1%;
+    text-align: center;
+    box-shadow: 0px 5px #008bcd;
+    Font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color:#FFF;
+    font-size: 20px;
+    
+}
+
+div.botao:hover{
+    background-color: #0074ab;
+}
+
+div.areabotao{
+    position: relative;
+    width: 800px;
+    bottom: 0;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 350px;
+    
+    
+}
+
+/*div{
+    border: 1px solid red;
+}*/
+

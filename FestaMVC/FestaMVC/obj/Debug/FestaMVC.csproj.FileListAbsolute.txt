@@ -1,0 +1,6 @@
+c:\users\lucas.sousa\documents\visual studio 2010\Projects\FestaMVC\FestaMVC\bin\FestaMVC.dll
+c:\users\lucas.sousa\documents\visual studio 2010\Projects\FestaMVC\FestaMVC\bin\FestaMVC.pdb
+c:\users\lucas.sousa\documents\visual studio 2010\Projects\FestaMVC\FestaMVC\obj\Debug\FestaMVC.dll
+c:\users\lucas.sousa\documents\visual studio 2010\Projects\FestaMVC\FestaMVC\obj\Debug\FestaMVC.pdb
+C:\Users\lucas.sousa\Documents\Visual Studio 2010\Projects\FestaMVC\FestaMVC\obj\Debug\FestaMVC.csprojResolveAssemblyReference.cache
+C:\Users\lucas.sousa\Documents\Visual Studio 2010\Projects\FestaMVC\FestaMVC\bin\Newtonsoft.Json.dll

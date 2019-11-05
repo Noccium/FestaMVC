@@ -1,0 +1,61 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using FestaMVC.Models
+@model List<FestaModel>
+
+ <div class="areaOpcao">
+            <div class="cabecalhoAreaOpcao">
+                
+                <div class="voltar">
+                    <a href="@Url.Action("Index", "Home")">@Html.Raw(File.ReadAllText(Server.MapPath("~/Content/Images/back.svg")))</a>
+                </div>
+                Festa
+                <div class="adicionar"><a href="@Url.Action("Edit", "Festa")">@Html.Raw(File.ReadAllText(Server.MapPath("~/Content/Images/add.svg")))</a></div>
+            </div>
+            <div class="linhaCabecalho"></div>
+            
+            <div class="areaTabela">
+                <div class="containerTabela">
+                        <table name="grid">
+                                <thead>
+                                  <tr>
+                                    <th>Id</th>
+                                    <th>Nome</th>
+                                    <th>Data</th>
+                                    <th>Valor do Ingresso</th>
+                                    <th>Total de Convidados</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var festa in Model)
+                                    {
+                                        <tr>
+                                        <th>@festa.id</th>
+                                        <th>@festa.Nome</th>
+                                        <th>@festa.Data</th>
+                                        <th>@festa.ValorDoIngresso</th>
+                                        @*<th>@festa.TotalDeConvidados</th>*@
+                                        </tr>
+                                    }
+                                </tbody>
+                                <tfoot>
+                                  <tr>
+                                    <th colspan="2">Total: <span>@Model.Count()</span></th>
+                                  </tr>
+                                </tfoot>
+                              </table>
+            </div>
+            </div>
+
+            <div class="TotalRes">
+                <div class="textoRes">
+                TOTAL de X registro(s)</div>
+            </div>
+
+@section carregarScript{
+    <script type="text/javascript" src="@Url.Content("~/Scripts/lg.festa.frontend.festa.index.js")"></script>
+}
+@section carregarHead {
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/lg.festa.frontend.views.festa.index.css")" />
+}

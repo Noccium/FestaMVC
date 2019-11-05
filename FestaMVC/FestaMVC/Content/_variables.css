@@ -1,0 +1,8 @@
+:root {
+    --bg-home-light: rgba(255, 211, 0, 0.25);
+    --bg-shadow: rgba(0, 0, 0, 0.2);
+    --bg-light: #FFF;
+    --bg-gray-light: #e2e0e0;
+    --bg-primary: #ef8a00;
+    --bg-success: #195EAD;
+}
